@@ -12,23 +12,30 @@ Egy Node.js alapú kvíz alkalmazás PostgreSQL adatbázissal.
 
 ### 1. Klónozás
 
-- ```bash
-- git clone <repo_url>
-- cd national_holiday_quiz
+```bash
+git clone <repo_url>
+cd national_holiday_quiz
+```
 
 ### 2. Függőségek telepítése
 
-- npm install
+```bash
+npm install
+```
 
 ### 3. PostgreSQL adatbázis létrehozása és importálása
 
 #### 1. Hozz létre egy új adatbázist: 
 
-- createdb national_holiday_quiz
+```bash
+createdb national_holiday_quiz
+```
 
 #### 2. Importáld a dump fájlt (a projekt gyökerében national_holiday_quiz.sql):
 
-- psql -d national_holiday_quiz -f national_holiday_quiz.sql
+```bash
+psql -d national_holiday_quiz -f national_holiday_quiz.sql
+```
 
 ### 4. Környezeti változók beállítása
 - Hozz létre a projekt gyökerében egy .env fájlt a saját PostgreSQL hozzáféréseddel:
@@ -41,6 +48,10 @@ Egy Node.js alapú kvíz alkalmazás PostgreSQL adatbázissal.
 
 ### 5. Futtatás
 
-- npm start vagy nodemon
+```bash
+npm start 
+# vagy 
+nodemon
+```
 
 - A kvíz elérhető a böngészőben: http://localhost:3000
