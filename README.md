@@ -1,4 +1,24 @@
+<p align="right">
+  🌐 <a href="README_EN.md">English version</a>
+</p>
+
 # National Holiday QUIZ
+
+**Nyelv:** HU Magyar | [GB English](README_EN.md)
+
+## Képernyőképek
+
+![Kezdőlap képernyőképe](public/images/national-holiday.png)
+*Főoldal reszponzív megjelenése*
+
+![Kezdőlap képernyőképe mobilnézetben](public/images/national-holiday-mobile-view.png)
+*Főoldal reszponzív megjelenése*
+
+![Kvíz megjelenése](public/images/national-holiday-quiz.png)
+*Kvíz megjelenése*
+
+![Kvíz vége megjelenése](public/images/national-holiday-quiz-f.png)
+*Kvíz vége megjelenése*
 
 Egy Node.js alapú kvíz alkalmazás PostgreSQL adatbázissal.
 
@@ -55,3 +75,8 @@ nodemon
 ```
 
 - A kvíz elérhető a böngészőben: http://localhost:3000
+
+
+## Készítette
+
+Név: Lukács Zita
