@@ -8,17 +8,13 @@
 
 ## Screenshots
 
-![Homepage Screenshot](public/images/national-holiday.png)  
-*Responsive desktop view of the homepage*
+![Homepage Screenshot](public/images/start.png)  
 
-![Mobile Homepage Screenshot](public/images/national-holiday-mobile-view.png)  
-*Responsive mobile view of the homepage*
+![Mobile Homepage Screenshot](public/images/mobile.png) 
 
-![Quiz View](public/images/national-holiday-quiz.png)  
-*Quiz interface*
+![Quiz View](public/images/quiz.png) 
 
-![Quiz Result View](public/images/national-holiday-quiz-f.png)  
-*Quiz results screen*
+![Quiz Result View](public/images/end.png)  
 
 A Node.js–based quiz application with a PostgreSQL database.
 

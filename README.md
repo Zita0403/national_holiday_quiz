@@ -8,17 +8,13 @@
 
 ## Képernyőképek
 
-![Kezdőlap képernyőképe](public/images/national-holiday.png)
-*Főoldal reszponzív megjelenése*
+![Kezdőkép](public/images/start.png)
 
-![Kezdőlap képernyőképe mobilnézetben](public/images/national-holiday-mobile-view.png)
-*Főoldal reszponzív megjelenése*
+![Kezdőkép mobilnézetben](public/images/mobile.png)
 
-![Kvíz megjelenése](public/images/national-holiday-quiz.png)
-*Kvíz megjelenése*
+![Kvíz](public/images/quiz.png)
 
-![Kvíz vége megjelenése](public/images/national-holiday-quiz-f.png)
-*Kvíz vége megjelenése*
+![Kvíz vége](public/images/end.png)
 
 Egy Node.js alapú kvíz alkalmazás PostgreSQL adatbázissal.
 

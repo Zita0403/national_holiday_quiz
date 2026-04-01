@@ -1,15 +1,23 @@
 console.log("Frontend");
 
 const nextBtn = document.getElementById("next-btn");
+const modal = document.querySelector(".custom-modal");
+const closeModalBtn = document.querySelector(".close-modal");
+
+if (closeModalBtn) {
+  closeModalBtn.addEventListener("click", () => {
+    modal.classList.remove("show");
+  });
+}
 
 if (nextBtn) {
   nextBtn.addEventListener("click", async (e) => {
     e.preventDefault();
     const selected = document.querySelector('input[name="answer"]:checked');
-    console.log(selected);
     
     if (!selected) {
-      return alert("Válassz egy lehetőséget!");
+      modal.classList.add("show");
+      return;
     } 
 
     const answerId = selected.value;
