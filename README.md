@@ -71,6 +71,8 @@ nodemon
 ```
 
 - A kvíz elérhető a böngészőben: http://localhost:3001
+vagy 
+- Élőben is kipróbálhatod: https://quiz.zita.dev/
 
 
 ## Készítette
