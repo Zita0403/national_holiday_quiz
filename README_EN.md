@@ -73,7 +73,7 @@ nodemon
 The quiz will be available at:
 http://localhost:3001
 or
-live https://quiz.zita.dev/
+live demo https://quiz.zita.dev/
 
 
 ## Created by
