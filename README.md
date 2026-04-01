@@ -70,7 +70,7 @@ npm start
 nodemon
 ```
 
-- A kvíz elérhető a böngészőben: http://localhost:3000
+- A kvíz elérhető a böngészőben: http://localhost:3001
 
 
 ## Készítette
