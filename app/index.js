@@ -27,6 +27,7 @@ db.connect();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")));
+app.set("view engine", "ejs");
 
 let totalScore = 0;
 let askedQuestions = [];
